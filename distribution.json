@@ -448,6 +448,16 @@
           ]
         },
         {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          }
+        },
+        {
           "id": "io.github.kosmx.emotes:emotecraft:2.2.7-b.build.50@jar",
           "name": "Emotecraft",
           "type": "ForgeMod",
@@ -495,6 +505,16 @@
             "size": 55258,
             "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/forgemods/required/LegendaryTooltips-1.20.1-forge-1.4.5.jar",
             "MD5": "18c8e50bb98e24d86aa96a8b25dc6091"
+          }
+        },
+        {
+          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2851119,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
+            "MD5": "1dd891634ac21591b5a692471f112572"
           }
         },
         {
@@ -565,6 +585,26 @@
             "size": 1723029,
             "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/forgemods/required/Xaeros_Minimap_25.2.10_Forge_1.20.jar",
             "MD5": "2b2bfaf3a1872b83c57aaa51c73f10d9"
+          }
+        },
+        {
+          "id": "oculus.properties",
+          "name": "oculus.properties",
+          "type": "File",
+          "artifact": {
+            "size": 288,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/files/config/oculus.properties",
+            "path": "config/oculus.properties"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 6382,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/files/options.txt",
+            "path": "options.txt"
           }
         },
         {
