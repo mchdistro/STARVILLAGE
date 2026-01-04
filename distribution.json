@@ -1,0 +1,694 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "STARVILLAGE-1.20.1",
+      "name": "스타빌리지",
+      "description": "Minecraft 1.20.1 (Forge v47.4.13)",
+      "icon": "https://github.com/mchdistro/STARVILLAGE/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "starvillage.o-r.kr",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "javaOptions": {
+        "supported": "=>21",
+        "suggestedMajor": 21,
+        "platformOptions": [
+          {
+            "platform": "win32",
+            "architecture": "x64",
+            "distribution": "TEMURIN"
+          }
+        ],
+        "ram": {
+          "minimum": 4096,
+          "recommended": 8192
+        }
+      },
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.13",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7394,
+            "MD5": "1802fa5a2d337d6660438e353b3b50cd",
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.13/lowcodelanguage-1.20.1-47.4.13.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.13",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16554,
+                "MD5": "1a3573e11d61bfb2a22ea146bf8b0a60",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/versions/1.20.1-forge-47.4.13/1.20.1-forge-47.4.13.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.13",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118909,
+                "MD5": "dc8fe299b39fe48ecb085b21da31db6c",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.13/fmlcore-1.20.1-47.4.13.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.13",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16850,
+                "MD5": "8d35cf4f3bf9704c64babb6472336ffd",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.13/javafmllanguage-1.20.1-47.4.13.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.13",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4993,
+                "MD5": "b3fbe1f92e7bb2e249e5a71b87f74a35",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.13/mclanguage-1.20.1-47.4.13.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.13:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2506787,
+                "MD5": "dd06b245ea75208c848680660b0b7c21",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.13/forge-1.20.1-47.4.13-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.13:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4848366,
+                "MD5": "5c4d8867f3152f9c397859436a06321c",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.13/forge-1.20.1-47.4.13-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.13",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 269262,
+                "MD5": "96bc3cf7132fe5903457662754c14bec",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.13/fmlloader-1.20.1-47.4.13.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.13",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170512,
+                "MD5": "22318c2b6fb4319b59554c8965b0cbc9",
+                "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.13/fmlearlydisplay-1.20.1-47.4.13.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.2.7-b.build.50@jar",
+          "name": "Emotecraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 680255,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/forgemods/required/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
+            "MD5": "636c62379cd7c5201a70fd457808e331"
+          }
+        },
+        {
+          "id": "generated.forgemod:essential_1:3-10-4_forge_1-20-1@jar",
+          "name": "Essential_1",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 54680782,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/forgemods/required/Essential_1-3-10-4_forge_1-20-1.jar",
+            "MD5": "4ad199004f51d22950e68c5bc0425f93"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.1.25@jar",
+          "name": "Iceberg",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 134551,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/forgemods/required/Iceberg-1.20.1-forge-1.1.25.jar",
+            "MD5": "cda8af806d0de012f5c7012ea51c155f"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan.koreanpatch.client:koreanpatch:1.9.5+mc1.20.1@jar",
+          "name": "Korean Patch",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 316542,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/forgemods/required/koreanpatch-forge-1.9.5+mc1.20.1.jar",
+            "MD5": "b7c99a33c48f6ae31de7f7f6038800c2"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:legendarytooltips:1.4.5@jar",
+          "name": "Legendary Tooltips",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55258,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/forgemods/required/LegendaryTooltips-1.20.1-forge-1.4.5.jar",
+            "MD5": "18c8e50bb98e24d86aa96a8b25dc6091"
+          }
+        },
+        {
+          "id": "generated.forgemod:particular:1.0.4@jar",
+          "name": "Particular",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 180475,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/forgemods/required/particular-1.0.4.jar",
+            "MD5": "cae71c4f01750a805323df8c7269df87"
+          }
+        },
+        {
+          "id": "dev.kosmx.playeranim:playeranimator:1.0.2-rc1+1.20@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181437,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/forgemods/required/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+            "MD5": "46f8554181d4d240075ea4919d01fd01"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:prism:1.0.5@jar",
+          "name": "Prism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52205,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/forgemods/required/Prism-1.20.1-forge-1.0.5.jar",
+            "MD5": "de0e319e29e813f407314b33739f7eb8"
+          }
+        },
+        {
+          "id": "net.thetct:tctcore:2.1@jar",
+          "name": "Tctcore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 805156,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/forgemods/required/TCTcore-1.20.1.jar",
+            "MD5": "c3d398ee78069451b98c8909efe52697"
+          }
+        },
+        {
+          "id": "xyz.trivaxy:tia:1.20-1.1@jar",
+          "name": "Tiny Item Animations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11766,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/forgemods/required/tia-1.20-1.1-forge.jar",
+            "MD5": "38982a15516bceae12cb15bf6092b26e"
+          }
+        },
+        {
+          "id": "de.maxhenkel.voicechat:voicechat:1.20.1-2.6.10@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4892021,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.6.10.jar",
+            "MD5": "cd6ce236a50f8a4a0ceeb7d961aef4d0"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.2.10@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1723029,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/forgemods/required/Xaeros_Minimap_25.2.10_Forge_1.20.jar",
+            "MD5": "2b2bfaf3a1872b83c57aaa51c73f10d9"
+          }
+        },
+        {
+          "id": "Better-Leaves-9.4.zip",
+          "name": "Better-Leaves-9.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1427931,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/files/resourcepacks/Better-Leaves-9.4.zip",
+            "MD5": "9928e06031c1591efaba9417c9bce647",
+            "path": "resourcepacks/Better-Leaves-9.4.zip"
+          }
+        },
+        {
+          "id": "BetterHangulFont.zip",
+          "name": "BetterHangulFont.zip",
+          "type": "File",
+          "artifact": {
+            "size": 80065,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/files/resourcepacks/BetterHangulFont.zip",
+            "MD5": "7e53a307e7c7a9f12c7ed189ad416112",
+            "path": "resourcepacks/BetterHangulFont.zip"
+          }
+        },
+        {
+          "id": "Clear Glass Pack 1.20.zip",
+          "name": "Clear Glass Pack 1.20.zip",
+          "type": "File",
+          "artifact": {
+            "size": 588011,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/files/resourcepacks/Clear%20Glass%20Pack%201.20.zip",
+            "MD5": "ea1cc5a3ef7ef52b051277d39e658ab7",
+            "path": "resourcepacks/Clear Glass Pack 1.20.zip"
+          }
+        },
+        {
+          "id": "EclecticTrove-1.20.1-1.3.0.zip",
+          "name": "EclecticTrove-1.20.1-1.3.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 11977,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/files/resourcepacks/EclecticTrove-1.20.1-1.3.0.zip",
+            "MD5": "3f57b06130188b2216eb340ad8b4182f",
+            "path": "resourcepacks/EclecticTrove-1.20.1-1.3.0.zip"
+          }
+        },
+        {
+          "id": "갬생.zip",
+          "name": "갬생.zip",
+          "type": "File",
+          "artifact": {
+            "size": 757717,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/files/resourcepacks/%EA%B0%AC%EC%83%9D.zip",
+            "MD5": "99887fe51bd3d9d13b89284c8d9506e7",
+            "path": "resourcepacks/갬생.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.5.1.zip.txt",
+          "name": "ComplementaryReimagined_r5.5.1.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 120,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.5.1.zip.txt",
+            "MD5": "539a42616b13ab3012078713a6cfc494",
+            "path": "shaderpacks/ComplementaryReimagined_r5.5.1.zip.txt"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.6.1.zip",
+          "name": "ComplementaryReimagined_r5.6.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 500696,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.6.1.zip",
+            "MD5": "04c822b2da584e21745869190ac653e6",
+            "path": "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.6.1.zip.txt",
+          "name": "ComplementaryReimagined_r5.6.1.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 161,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.6.1.zip.txt",
+            "MD5": "babce0ff03c2b5f7bb9019817694ec9c",
+            "path": "shaderpacks/ComplementaryReimagined_r5.6.1.zip.txt"
+          }
+        },
+        {
+          "id": "Solas Shader V3.1c.zip",
+          "name": "Solas Shader V3.1c.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1303026,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/files/shaderpacks/Solas%20Shader%20V3.1c.zip",
+            "MD5": "d2954df8f5eeb18e2899b42d83244055",
+            "path": "shaderpacks/Solas Shader V3.1c.zip"
+          }
+        },
+        {
+          "id": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip",
+          "name": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3184524,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/files/shaderpacks/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV93.0%C2%A7r%C2%A7l.zip",
+            "MD5": "021c95bd3d217b4a7e45997d5127285b",
+            "path": "shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip"
+          }
+        },
+        {
+          "id": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip.txt",
+          "name": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 111,
+            "url": "https://github.com/mchdistro/STARVILLAGE/raw/main/servers/STARVILLAGE-1.20.1/files/shaderpacks/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV93.0%C2%A7r%C2%A7l.zip.txt",
+            "MD5": "1c7f60077242dc9d71461ae39d67b234",
+            "path": "shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV93.0§r§l.zip.txt"
+          }
+        }
+      ]
+    }
+  ]
+}
